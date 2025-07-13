@@ -1,7 +1,6 @@
-
 {
   "name": "CHAMI-MD",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A WhatsApp Bot Created By CHAMI",
   "main": "index.js",
   "scripts": {
@@ -10,7 +9,7 @@
     "restart": "pm2 restart CHAMI-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:asitha-new-v99",
+    "@whiskeysockets/baileys": "npm:baileys-pro@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -19,7 +18,6 @@
     "pino": "^7.0.5",
     "pm2": "^6.0.5",
     "util": "^0.12.4",
-    "jimp": "^0.16.1",
     "express": "latest",
     "moment-timezone": "^0.5.45",
     "axios": "^1.2.5",
